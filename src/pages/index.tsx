@@ -1,11 +1,6 @@
 import * as Icon from "@/components/Others/Icons";
 
-import { useCounter } from "@/lib/hooks";
-import { ucWords } from "@/lib/functions";
-
 export default function Home() {
-    const { count, increment, reset } = useCounter();
-
     return (
         <div className="flex items-center justify-center min-h-screen bg-white dark:bg-gray-900">
             <main className="flex flex-col items-center justify-center w-full p-20 text-center gap-4">
@@ -13,7 +8,6 @@ export default function Home() {
 
                 <h1 className="text-6xl font-bold">
                     <span>Welcome to website </span>
-
                 </h1>
             </main>
         </div>
