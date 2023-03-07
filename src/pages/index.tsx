@@ -92,7 +92,7 @@ export default function Example() {
                                         <br></br>
                                         <img
                                             src="/images/picture_1.jpg"
-                                            className="w-[12rem] sm:w-[42rem] md:-ml-4 lg:-ml-0 hover:cursor-pointer transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-100 rounded-md border-double shadow-2xl rotate-12 scale-100 translate-x-6 "
+                                            className="owerflow-hidden w-[10rem] sm:w-[40rem] md:-ml-4 lg:-ml-0 hover:cursor-pointer transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-100 rounded-md border-double shadow-2xl rotate-12 scale-100 translate-x-6 "
                                             alt="Sus picture immo"
                                         ></img>
                                     </div>
@@ -236,7 +236,7 @@ export default function Example() {
                                                 <img
                                                     src="/images/picture_2.jpg"
                                                     alt="Product screenshot"
-                                                    className="-rotate-12 w-[12rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[42rem] md:-ml-4 lg:-ml-0 hover:cursor-pointer  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-100"
+                                                    className="-rotate-12 w-[12rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:w-[40rem] md:-ml-4 lg:-ml-0 hover:cursor-pointer  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-100"
                                                     width={2432}
                                                     height={1442}
                                                 />
