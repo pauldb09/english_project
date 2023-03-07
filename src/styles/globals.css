@@ -5,6 +5,28 @@
 @tailwind utilities;
 
 @layer base {
+    /* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #101111;
+    border-radius: 16px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color:  #fff;
+    border-radius: 4px;
+    border: 3px solid #fff;
+  }
+  
     html,
     body {
         @apply scroll-smooth scroll-pt-12;
