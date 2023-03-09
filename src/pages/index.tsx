@@ -35,7 +35,7 @@ export default function Example() {
             <Modal isModalOpen={isModalOpen} setModalOpen={setModalOpen}></Modal>
             {currentSection === 0 && <Video></Video>}
             <div
-                className="content"
+                className="content bg-blue2"
                 style={{
                     position: currentSection == 0 ? "fixed" : "initial",
                     background: currentSection == 1 ? "rgb(6 27 64 / 92%)" : "opacity-90",

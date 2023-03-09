@@ -20,7 +20,7 @@ module.exports = {
             black1: "#1a1919eb",
             black2: "#000000eb",
             black3: "#201e1eeb",
-            white2: "#00000080",
+            blue2: "#4890AB",
         },
         fontFamily: {},
         extend: {},
